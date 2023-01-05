@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Top left Icon image-->
+    <link rel="short icon" type="x-icon" href="bee-hive.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="menu-5">
+      <img src="bee-hive.png" class="img333">
+     </div>
+    <!-- Container -->
+    <div class="container">
+      
+      <div class="navbar">
+        <div>
+          <h1>Honeycomb Rollers</h1>
+        
+          </div>
+        <div class="search">
+        </div>
+        
+        
+
+        <div class="menu">
+          <ul class="nav-menu">
+            <li>
+              <a onclick="closeMenu()" href="index.html" class="homeicon">Home</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="products-ae.html" class="producticon">Products</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="about us-ae.html" class="abouticon">Abouts Us</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="contacts-ae.html" class="contactsicon">Contacts</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="main-bg.html" class="bgicon">Language BG</a>
+            </li>
+          </ul>
+          <!--mobile three line menu-->
+          <div onclick="mobileMenu()" class="mobile">
+            <!--
+              <i class="fa-solid fa-bars"></i>
+            -->
+            <i class='fas fa-bars fa-2x'></i>
+          </div>
+        </div>
+        
+      </div>
+      <!-- End Navbar -->
+      
+
+      
+    </div>
+    <script>
+      const menuBtn = document.querySelector('.mobile');
+      const navMenu = document.querySelector('.nav-menu');
+
+      const mobileMenu = () => {
+        menuBtn.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      };
+
+      const closeMenu = () => {
+        navMenu.classList.toggle('active');
+      };
+    </script>
+
+     
+
+
+<form action="https://formspree.io/f/xrgvzpbj" method="POST">
+    <div class="section">
+        <div class="container">
+            <div class="row full-height justify-content-center">
+                <div class="col-12 text-center align-self-center py-5">
+                    <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                        <h6 class="mb-0 pb-3"><span>Question </span><span2>Purchase</span2></h6>
+                          <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+                          <label for="reg-log"></label>
+                        <div class="card-3d-wrap mx-auto">
+                            <div class="card-3d-wrapper">
+                                <div class="card-front">
+                                    <div class="center-wrap">
+                                        <div class="section text-center">
+                                            <h4 class="mb-4 pb-3">Question</h4>
+                                            <div class="form-group">
+                                                <input type="name" name="name" class="form-style" placeholder="Full Name" id="logname" autocomplete="off">
+                                                <i class="input-icon uil uil-at"></i>
+                                            </div>	
+                                            <div class="form-group mt-2">
+                                                <input type="email" name="email" class="form-style" placeholder="Email" id="logemail" autocomplete="off">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                                <div class="form-group mt-2">
+                                                    <input type="model" name="model" class="form-style" placeholder="Chosen Model" id="logpass" autocomplete="off">
+                                                    <i class="input-icon uil uil-lock-alt"></i>
+                                                </div>
+                        <input type="question" name="question" class="form-style" placeholder="Your Question" id="logpass" autocomplete="off">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                    
+                                            <button type="submit" class="btn mt-4">Send</button>
+                                        </form>
+                                          </div>
+                                      </div>
+                                  </div>
+                                <div class="card-back">
+                                    <div class="center-wrap">
+                                        <div class="section text-center">
+                                            <h4 class="mb-4 pb-3">Purchase</h4>
+                                            <div class="form-group">
+                                                <input type="text" name="logname" class="form-style" placeholder="Your Full Name" id="logname" autocomplete="off">
+                                                <i class="input-icon uil uil-user"></i>
+                                            </div>	
+                                            <div class="form-group mt-2">
+                                                <input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+                                                <i class="input-icon uil uil-at"></i>
+                                            </div>	
+                                            <div class="form-group mt-2">
+                                                <input type="model" name="model" class="form-style" placeholder="Chosen Model" id="logpass" autocomplete="off">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="number" name="number" class="form-style" placeholder="Count" id="logpass" autocomplete="off">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                            <button type="submit" class="btn mt-4">Send</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+    <div class="footer">  
+      Our Email: honeycombrollers@gmail.com and our phone number: +359882829893 
+      <div class="social-footer">
+      <div class="facebookicon" >
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100088698763483"><img src="faceicon.png" alf="Facebook" class="faceicon"></a>
+      </div> 
+      <div class="instagramicon" >
+        <a target="_blank" href="https://instagram.com/honeycombrollers?igshid=YmMyMTA2M2Y="><img src="igicon.webp" alf="Instagram" class="igicon"></a>
+      </div>  
+      </div> 
+      </div>
+  </body>
+</html>

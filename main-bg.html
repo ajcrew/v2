@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Top left Icon image-->
+    <link rel="short icon" type="x-icon" href="bee-hive.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honeycomb Rollers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="menu-5">
+      <img src="bee-hive.png" class="img333">
+     </div>
+    <!-- Container -->
+    <div class="container">
+      <!-- Top Bar -->
+      <!--
+        <div id="top" class="top-bar">
+        <h3 class="intro">Introducing the new AirTravel</h3>
+        <p>Learn More</p>
+      </div>
+      -->
+      
+      
+      <!-- End Top Bar -->
+      <!-- Navbar -->
+      <div class="navbar">
+        <div>
+          <h1>Honeycomb Rollers</h1>
+        
+          </div>
+        <div class="search">
+        </div>
+        
+        
+
+        <div class="menu">
+          <ul class="nav-menu">
+            <li>
+              <a onclick="closeMenu()" href="main-bg.html" class="homeicon">Home</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="products-bg.html" class="producticon">Продукти</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="about us-bg.html" class="abouticon">За нас</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="contacts-bg.html" class="contactsicon">Контакти</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="index.html" class="aeicon">Език EN</a>
+            </li>
+          </ul>
+          <!--mobile three line menu-->
+          <div onclick="mobileMenu()" class="mobile">
+            <!--
+              <i class="fa-solid fa-bars"></i>
+            -->
+            <i class='fas fa-bars fa-2x'></i>
+          </div>
+        </div>
+        
+      </div>
+      <!-- End Navbar -->
+      
+
+      
+    </div>
+    <script>
+      const menuBtn = document.querySelector('.mobile');
+      const navMenu = document.querySelector('.nav-menu');
+
+      const mobileMenu = () => {
+        menuBtn.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      };
+
+      const closeMenu = () => {
+        navMenu.classList.toggle('active');
+      };
+    </script>
+
+     
+
+
+<style type="text/css">
+  h2 {
+  text-align: center;
+  color: whitesmoke;
+  }
+  h3 {
+  text-align: center;
+  color: whitesmoke;
+  }
+  h3 a {
+    color:red;
+  }
+</style>
+
+<h2>Здравейте пчелари!</h2>
+<h3>
+   Това е най-новата ни машина.
+</h3>
+<img src="machine image-resized2.jpg"alt="Machine" class="image-main">
+
+<h3>
+   Повече информация за нея <a href="products-bg.html" > тук.</a>
+</h3>
+
+<img src="new.png"alt="Machine" class="image-main2">
+
+
+  <div class="madein">
+    <img src="made in bg.jpg" class="madeinbg"> 
+   </div>
+
+</div>
+
+<div class="footer">  
+  Имейл: honeycombrollers@gmail.com и телефонен: +359882829893 
+  <div class="social-footer">
+  <div class="facebookicon" >
+    <a target="_blank" href="https://www.facebook.com/profile.php?id=100088698763483"><img src="faceicon.png" alf="Facebook" class="faceicon"></a>
+  </div> 
+  <div class="instagramicon" >
+    <a target="_blank" href="https://instagram.com/honeycombrollers?igshid=YmMyMTA2M2Y="><img src="igicon.webp" alf="Instagram" class="igicon"></a>
+  </div>  
+  </div> 
+  </div>
+  </body>
+</html>

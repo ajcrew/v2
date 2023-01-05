@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Top left Icon image-->
+    <link rel="short icon" type="x-icon" href="bee-hive.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Продукти</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="menu-5">
+      <img src="bee-hive.png" class="img333">
+     </div>
+    <!-- Container -->
+    <div class="container">
+      <!-- Top Bar -->
+      <!--
+        <div id="top" class="top-bar">
+        <h3 class="intro">Introducing the new AirTravel</h3>
+        <p>Learn More</p>
+      </div>
+      -->
+      
+      
+      <!-- End Top Bar -->
+      <!-- Navbar -->
+      <div class="navbar">
+        <div>
+          <h1>Honeycomb Rollers</h1>
+        
+          </div>
+        <div class="search">
+        </div>
+        
+        
+
+        <div class="menu">
+            <ul class="nav-menu">
+              <li>
+                <a onclick="closeMenu()" href="main-bg.html" class="homeicon">Home</a>
+              </li>
+              <li>
+                <a onclick="closeMenu()" href="products-bg.html" class="producticon">Продукти</a>
+              </li>
+              <li>
+                <a onclick="closeMenu()" href="about us-bg.html" class="abouticon">За нас</a>
+              </li>
+              <li>
+                <a onclick="closeMenu()" href="contacts-bg.html" class="contactsicon">Контакти</a>
+              </li>
+              <li>
+                <a onclick="closeMenu()" href="index.html" class="aeicon">Език EN</a>
+              </li>
+            </ul>
+            <!--mobile three line menu-->
+            <div onclick="mobileMenu()" class="mobile">
+            <!--
+              <i class="fa-solid fa-bars"></i>
+            -->
+            <i class='fas fa-bars fa-2x'></i>
+          </div>
+        </div>
+        
+      </div>
+      <!-- End Navbar -->
+      
+
+      <!-- Listings -->
+      <div id="listings" class="listings">
+        <!--
+           Property Card 
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1577495508326-19a1b3cf65b7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuc2lvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600"
+            alt="house"
+          />
+          <div>
+            <div class="card-title">
+              <h4>City, State</h4>
+              <p>5.0 <i class="fa-solid fa-star"></i></p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+            <p><span class="grey">Jun 1 - 7</span></p>
+            <p>$749 night</p>
+          </div>
+        </div>
+      </div>
+        -->
+
+      <!--
+        Footer 
+      <div class="footer">
+        <ul class="left-menu">
+          <li>AirTravel</li>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Destinations</li>
+        </ul>
+        <ul class="right-menu">
+          <li>Support</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      -->
+
+       
+
+      <!-- Container End -->
+    </div>
+    <script>
+      const menuBtn = document.querySelector('.mobile');
+      const navMenu = document.querySelector('.nav-menu');
+
+      const mobileMenu = () => {
+        menuBtn.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      };
+
+      const closeMenu = () => {
+        navMenu.classList.toggle('active');
+      };
+    </script>
+
+     
+
+
+<style type="text/css">
+  h2 {
+  text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  h3 div ul li a {
+    color: red;
+  }
+  
+</style>
+<h2>Преса за основи 250/5.40мм</h2>
+<img src="machine image-resized2.jpg"alt="Machine" class="image-main">
+<h3>
+ <div class="container">
+     <ul class="myUL">
+       <li>250мм работна площ</li>
+       <li>Изработена от високо качество полимер</li>
+       <li>Лагери</li>
+       <li>Тежест~3кг</li>
+       <li>5.4мм размер на килийката</li>
+       <li>Цена: 700лв</li>
+       <li>Безплатан доставка за цялата страна!</li>
+       <li>За поръчки натиснете <a href="contacts-bg.html" >тук.</a></li>
+     </ul>
+   </div>
+</h3>
+<h2>Преса за предоснови V1</h2>
+<img src="pre-sheet.JPG"alt="Machine" class="image-main">
+<h3>
+ <div class="container">
+     <ul class="myUL">
+        <li>250мм работна площ</li>
+        <li>Изработена от високо качество полимер</li>
+        <li>Лагери</li>
+        <li>Тежест~3кг</li>
+       <li>Съвместима с преса 250/5.40мм</li>
+       <li>Цена: 400лв</li>
+       <li>Безплатан доставка за цялата страна!</li>
+       <li>За поръчки натиснете <a href="contacts-bg.html" >тук.</a></li>
+     </ul>
+   </div>
+</h3>
+<h2>
+ Още машини и други рамери скоро!
+</h2>
+
+
+<div class="madein">
+  <img src="made in bg.jpg" class="madeinbg"> 
+ </div>
+ <div class="footer">  
+  Имейл: honeycombrollers@gmail.com и телефонен: +359882829893 
+  <div class="social-footer">
+  <div class="facebookicon" >
+    <a target="_blank" href="https://www.facebook.com/profile.php?id=100088698763483"><img src="faceicon.png" alf="Facebook" class="faceicon"></a>
+  </div> 
+  <div class="instagramicon" >
+    <a target="_blank" href="https://instagram.com/honeycombrollers?igshid=YmMyMTA2M2Y="><img src="igicon.webp" alf="Instagram" class="igicon"></a>
+  </div>  
+  </div> 
+  </div>
+  </body>
+</html>
